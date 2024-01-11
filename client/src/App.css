@@ -1,0 +1,95 @@
+body {
+  background-color: #fed6ae; /* Set background color to white */
+  margin: 0; /* Remove default margin */
+  font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+  background-color: #ff7f50; /* Set header background color to orange */
+  text-align: center;
+  width: 2000px;
+  padding: 15px;
+  color: #ffffff; /* Set text color to white */
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Center content horizontally */
+  padding: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  margin-top: 20px; /* Add margin at the top */
+}
+
+input {
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px 0; /* Add margin top and bottom */
+  box-sizing: border-box; /* Include padding in the width */
+}
+
+button {
+  width: 320px;
+  height: 50px;
+  margin-top: 15px;
+  font-size: 20px;
+  background-color: #ff7f50; /* Set button background color to orange */
+  color: #ffffff; /* Set button text color to white */
+  border: 0.5px solid black; /* Add a 2px solid black border */
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff6347; /* Change button background color on hover */
+}
+
+.employees {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px; /* Add margin at the top */
+}
+
+.employee {
+  width: 700px;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 20px;
+}
+
+.employee h3 {
+  margin: 10px 0; /* Adjust margin */
+}
+
+/* Additional styling for better readability */
+p {
+  line-height: 1.5; /* Set line height for better readability */
+}
+
+img {
+	width: 40%;
+	object-fit: cover;
+}
+
+select {
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px 0; /* Add margin top and bottom */
+  box-sizing: border-box; /* Include padding in the width */
+}
